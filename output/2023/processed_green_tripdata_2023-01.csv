@@ -1,0 +1,3 @@
+VendorID,trip_count,sum_passenger,total_trip_duration (min),mode_PULocationID,mode_DOLocationID,sum_distance (km),sum_fare_amount,mean_tipAmount
+1,7804,8819,103536,74,75,20897.8,114210.99,1.9668554587391083
+2,57017,75745,1039902,74,74,161129.03,950258.77,2.2259168318220883

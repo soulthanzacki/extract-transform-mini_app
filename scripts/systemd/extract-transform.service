@@ -1,0 +1,11 @@
+[Unit]
+Description=Data Extraction and Transformation Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/user/scripts/extract-transform.sh
+WorkingDirectory=/home/user/scripts
+StandardOutput=journal
+StandardError=journal
+Restart=on-failure

@@ -1,0 +1,9 @@
+[Unit]
+Description=Scheduling extract-transform.service every 2 hours
+
+[Timer]
+OnUnitActiveSec=2h
+Unit=extract-transform.service
+
+[Install]
+WantedBy=timers.target
